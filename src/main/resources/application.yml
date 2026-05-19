@@ -1,3 +1,14 @@
 spring:
-  profiles:
-    active: dev
+  data:
+    mongodb:
+      uri: mongodb+srv://nikhilkhatri017_db_user:Nikhil123@cluster0.y2pqt6y.mongodb.net/journaldb?appName=Cluster0
+      auto-index-creation: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal
+
+weather:
+  api:
+    key: a0dcf8b6d7c3a220f149b58d71880857
