@@ -1,21 +1,21 @@
 weather:
   api:
-    key: a0dcf8b6d7c3a220f149b58d71880857
+    key: <32bitAPIKey>
 spring:
   redis:
     host: functional-creator-able-73967.db.redis.io
     port: 15788
-    password: M3OrjH1Z3WnkUgrL7oQpkuR6N1nkwD2O
-#    url: redis://default:M3OrjH1Z3WnkUgrL7oQpkuR6N1nkwD2O@functional-creator-able-73967.db.redis.io:15788
+    password: <32bitEndpoint>
+#    url: redis://default:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@functional-creator-able-73967.db.redis.io:15788
   data:
     mongodb:
-      uri: mongodb+srv://nikhilkhatri017_db_user:Nikhil123@cluster0.y2pqt6y.mongodb.net/journaldb?appName=Cluster0
+      uri: mongodb+srv://nikhilkhatri017_db_user:<yourPassword>@cluster0.y2pqt6y.mongodb.net/journaldb?appName=Cluster0
       auto-index-creation: true
   mail:
     host: smtp.gmail.com
     port: 587
     username: nikhilkhatri017@gmail.com
-    password: xxxx xxxx xxxx xxxx
+    password: <yourEmailPassword>
     properties:
       mail:
         smtp:
