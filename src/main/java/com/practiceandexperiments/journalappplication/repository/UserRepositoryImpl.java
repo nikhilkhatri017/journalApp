@@ -16,7 +16,7 @@ public class UserRepositoryImpl {
     @Autowired
     MongoTemplate mongoTemplate;
 
-    public List<User> getUserSA(){
+    public List<User> getUsersForSA(){
         Query query = new Query();
         query.addCriteria(Criteria.where("email").exists(true));
         query.addCriteria(Criteria.where("email").ne(null).ne(""));
